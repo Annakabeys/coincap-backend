@@ -1,0 +1,8 @@
+GET         /                       controllers.HomeController.index()
+GET         /portfolios             controllers.HomeController.getAll()
+
+POST        /portfolio-add          controllers.HomeController.addPortfolio()
+
+DELETE      /portfolio-delete/:id   controllers.HomeController.deletePortfolio(id: String)
+
+
